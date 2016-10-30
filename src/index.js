@@ -86,7 +86,7 @@ function requestBuilds(apps) {
                 resolve();
             }, 1000)
         });
-    });
+    }, Promise.resolve());
 
 
 }
